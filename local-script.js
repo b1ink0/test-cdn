@@ -17,7 +17,7 @@ let launcherIconData;
 let script_nudge = document.createElement("script");
 script_nudge.src =
   "https://cdn.jsdelivr.net/gh/b1ink0/test-cdn/nudges.js";
-// document.body.appendChild(script_nudge);
+document.body.appendChild(script_nudge);
 
 //? poppins font
 let fontLink_rs = document.createElement("link");
