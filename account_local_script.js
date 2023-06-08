@@ -7,7 +7,7 @@ if (__st.cid !== undefined) {
 }
 shopDomain_ar = Shopify.shop;
 
-let BACKEND_URL = "https://around-eu-mass-years.trycloudflare.com";
+let BACKEND_URL = "https://geometry-rca-zoo-british.trycloudflare.com";
 // let BACKEND_URL = "http://localhost:8080";
 
 //? main part starts here
