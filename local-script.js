@@ -1,7 +1,7 @@
 // react-widget-script.js version: 1.1
 
 
-let BACKEND_URL = "https://mad-offshore-interested-connections.trycloudflare.com";
+let BACKEND_URL = localStorage.getItem("BACKEND_URL");
 let shopDomain_rs;
 let customerId_rs;
 if (__st.cid !== undefined) {
