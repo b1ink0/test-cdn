@@ -1,11 +1,11 @@
 //? account-widget-script.js version: 1
 
-// let shopDomain_reward_page;
-// let customerId_reward_page;
-// if (__st.cid !== undefined) {
-//   customerId_reward_page = __st.cid;
-// }
-// shopDomain_reward_page = Shopify.shop;
+let shopDomain_reward_page;
+let customerId_reward_page;
+if (__st.cid !== undefined) {
+  customerId_reward_page = __st.cid;
+}
+shopDomain_reward_page = Shopify.shop;
 
 // let shopDomain_reward_page = "super-me-raj.myshopify.com";
 // let customerId_reward_page;
